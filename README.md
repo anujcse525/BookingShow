@@ -44,5 +44,5 @@ Start Of the Project:
 6. Nginx will verify the certificate and send request to Backend.
 7. Backend will authenticate the user using OAuth2.
 8. After verifying the request Backend will send the Access Token to the user, which will be used iin further requests.
-9. To get the list of movies frontend will be using api /api/v1/movies
-10. To Get the details of a movie frontend will be using /api/v1/movies/moviesName
+9. To get the list of movies frontend will be using api /api/v1/movies -- Response will be in paginated form with self link
+10. To Get the details of a movie frontend will be using /api/v1/movieDetails/{moviesName}
